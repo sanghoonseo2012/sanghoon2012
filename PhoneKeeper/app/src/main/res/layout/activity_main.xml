@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="50dp">
+
+    <TableRow>
+    <Button
+        android:id="@+id/btn01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알림음 설정"
+        android:textSize="15dp"
+        android:padding="10sp">
+    </Button>
+        <Button
+        android:id="@+id/btn02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비상연락망 발신"
+            android:textSize="15dp"
+        android:padding="10sp">
+
+    </Button>
+    </TableRow>
+
+    <TableRow>
+    <Button
+        android:id="@+id/btn03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="초기화면 이동"
+        android:textSize="15dp"
+        android:padding="10sp" >
+
+    </Button>
+    <Button
+        android:id="@+id/btn04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="데이터 초기화"
+        android:textSize="15dp"
+        android:padding="10sp">
+
+    </Button>
+    </TableRow>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/icon"
+        android:layout_gravity="bottom">
+
+    </ImageView>
+
+</TableLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt1"
+        android:text="알림음을 선택하세요"
+        android:textSize="30sp">
+
+    </TextView>
+
+  <RadioButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/sound01"
+      android:text="기본음"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:layout_toRightOf="@+id/sound01"
+        android:text="설정하기"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sound02"
+        android:text="사이렌 소리"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_toRightOf="@+id/sound02"
+        android:text="설정하기"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sound03"
+        android:text="진동"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_toRightOf="@+id/sound03"
+        android:text="설정하기"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/backbtn01"
+        android:text="이전"
+        android:layout_below="@+id/button3"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextbtn01"
+        android:text="다음"
+        android:layout_below="@+id/backbtn01">
+
+    </Button>
+
+
+  </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.co.company.phonekeeper">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Btn1activity">        </activity>
+        <activity android:name=".Nextbtn01">        </activity>
+        <activity android:name=".Btn2activity"> </activity>
+        <activity android:name=".Input01"> </activity>
+        <activity android:name=".Input02"> </activity>
+        <activity android:name=".Input03"> </activity>
+        <activity android:name=".Input04"> </activity>
+        <activity android:name=".Input05"> </activity>
+    </application>
+
+</manifest>
